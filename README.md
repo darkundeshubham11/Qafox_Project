@@ -1,8 +1,8 @@
 ![Qafox Logo](https://github.com/user-attachments/assets/4cfa5c19-ec80-4a52-b13f-48aa9cc26eb3)
 
-# BEWAKOOF - A NEW AGE ONLINE SHOPPING EXPERIENCE
+# Qafox - A NEW AGE ONLINE SHOPPING EXPERIENCE
 
-Founded in 2012, Bewakoof® is a lifestyle fashion brand that makes creative, distinctive fashion for the trendy, contemporary Indian. Bewakoof® was created on the principle of creating impact through innovation, honesty, and thoughtfulness.
+Qafox is an online store where you can purchase electronic products like mobiles, iPhones, MacBooks, cameras, and more. Qafox was founded on the principles of creating impact through innovation, honesty, and thoughtfulness.
 
 ## Objective
 
@@ -21,6 +21,7 @@ To perform Functional and Usability Testing on the Qafox Web Application, ensure
 - GitHub
 - Cypress
 - Visual Studio Code
+  
 **Operating System and browsers used:**
 
 - Windows
@@ -29,16 +30,44 @@ To perform Functional and Usability Testing on the Qafox Web Application, ensure
 - Chrome
 
 ## Directory Structure
-Daily-Practise-JavaScript/
-├─ e2e/
-├─ Assignments/
-├─ Construct week/
-├─ Bewakoof-project/
-
+- Qafox_Project/
+- ├─ cypress/
+- │  ├─ fixtures/
+- │  │  ├─ example.json
+- │  ├─ integration/
+- │  │  ├─ My-Account/
+- │  │  │  ├─ Address_Book.js
+- │  │  │  ├─ Change_Password.js
+- │  │  │  ├─ Downloads.js
+- │  │  │  ├─ Login.js
+- │  │  │  ├─ Logout.js
+- │  │  │  ├─ Newsletter_Subscription.js
+- │  │  │  ├─ Order_History.js
+- │  │  │  ├─ Registration.js
+- │  │  │  ├─ Returns.js
+- │  │  │  ├─ Reward_Points.js
+- │  │  │  ├─ Transactions.js
+- │  │  │  ├─ Update_Account.js
+- │  ├─ support/
+- │  │  ├─ commands.js
+- │  │  ├─ e2e.js
+- ├─ Mind_map/
+- │  ├─ My Account.jpg
+- │  ├─ Qafox Test Plan.jpg
+- ├─ node_modules/
+- ├─ Test Plan and Summary Report/
+- │  ├─ SUMMARY REPORT (My account feature) Qafox.pdf
+- │  ├─ Test Plan for My Account feature Construct week Project.pdf
+- ├─ Test_Cases and Bug Report/
+- │  ├─ Bug Report.xlsx
+- │  ├─ Test Scenario & Test Cases.xlsx
+- ├─ cypress.config.js
+- ├─ package-lock.json
+- ├─ package.json
 
 ## Application Under Test 
 
-AUT URL: [https://bewakoooff.netlify.app/html/index.html](https://bewakoooff.netlify.app/html/index.html)
+AUT URL: [[https://tutorialsninja.com/demo/](https://tutorialsninja.com/demo/)
 
 ## Scope 
 <details>
@@ -107,7 +136,7 @@ node -v
 
 Create a folder. Open a command prompt navigate to your folder. Paste this command(You have to install git first)
 
-git clone https://github.com/Shaik-Subhan-Vali/Daily-Practise-JavaScript.git
+git clone https://github.com/darkundeshubham11/Qafox_Project.git
 
 It will download this project.
 
@@ -124,33 +153,33 @@ npm install cypress --save-dev
 ## Test Artifacts
 Below are the links for Testing Activities
 
-### [Test Plan]()
+### [Test Plan](https://drive.google.com/file/d/1EZa-s_Xbj28aGAg9jx9qwc7WoMIzVBQ4/view?usp=drive_link)
 
-### [Test Scenario and Test Cases]()
+### [Test Scenario and Test Cases](https://docs.google.com/spreadsheets/d/1yFoH5kOf2HFqArxWvi0erLdIthqC-M03MX2MehTeQH0/edit?usp=drive_link)
 
-### [Bug Report]()
+### [Bug Report](https://docs.google.com/spreadsheets/d/1EOaHIU85zvoTw2FmoFaWGi3KhlgiZcxFbB8oP51zIAY/edit?usp=drive_link)
 
-### [Summary Report Submission]()
+### [Summary Report Submission](https://drive.google.com/file/d/1WQRMJhGp9Z6IiY6YK6I57Wa2TZiTIyUV/view?usp=drive_link)
 
 
 ## Test Case Execution Status
 
 | Test Case Status            | Build Result        |
 |-----------------------------|---------------------|
-| Total Number of Test Cases  | 80                  |
-| Passed Test Cases           | 80                  |
-| Failed Test Cases           | 80                  |
-| Blocked/Skipped Test Cases  | 80                  |
+| Total Number of Test Cases  | 90                  |
+| Passed Test Cases           | 68                  |
+| Failed Test Cases           | 22                  |
+| Blocked/Skipped Test Cases  | 00                  |
 
 ## Defects Status
 
 | Defect Status   | Build Result |        
 |-----------------|--------------|
-| Total number    | 27           |                  
-| Blocker         | 27           |
-| Critical        | 27           |
-| Major           | 27           |
-| Minor           | 27           |   
+| Total number    | 22           |                  
+| Blocker         | 00           |
+| Critical        | 13           |
+| Major           | 07           |
+| Minor           | 02           |   
 
 
 ## Attachments
