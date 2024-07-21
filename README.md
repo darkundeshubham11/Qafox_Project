@@ -37,6 +37,12 @@ To perform Functional and Usability Testing on the Qafox Web Application, ensure
 - │  ├─ integration/
 - │  │  ├─ My-Account/
 - │  │  │  ├─ Address_Book.js
+- │  │  │  ├─ View_Cart.js
+- │  │  │  ├─ Search_Product.js
+- │  │  │  ├─ Proceed_Checkout.js
+- │  │  │  ├─ Logout and Login with Old Email Address.js
+- │  │  │  ├─ Logout and Login with New Email Address.js
+- │  │  │  ├─ Add_Cart.js
 - │  │  │  ├─ Change_Password.js
 - │  │  │  ├─ Downloads.js
 - │  │  │  ├─ Login.js
