@@ -1,6 +1,6 @@
 ![Qafox Logo](https://github.com/user-attachments/assets/4cfa5c19-ec80-4a52-b13f-48aa9cc26eb3)
 
-# Qafox - A NEW AGE ONLINE SHOPPING EXPERIENCE
+# Qafox - A NEW AGE ONLINE STORE EXPERIENCE
 
 Qafox is an online store where you can purchase electronic products like mobiles, iPhones, MacBooks, cameras, and more. Qafox was founded on the principles of creating impact through innovation, honesty, and thoughtfulness.
 
@@ -67,7 +67,7 @@ To perform Functional and Usability Testing on the Qafox Web Application, ensure
 
 ## Application Under Test 
 
-AUT URL: [[https://tutorialsninja.com/demo/](https://tutorialsninja.com/demo/)
+AUT URL: [https://tutorialsninja.com/demo/](https://tutorialsninja.com/demo/)
 
 ## Scope 
 <details>
